@@ -1,4 +1,4 @@
-# Proyecto PPA - Backend API
+# Proyecto IND - Backend API
 
 Este proyecto es una API RESTful desarrollada con Fastify, Sequelize, TypeScript, y MySQL.
 
@@ -45,12 +45,12 @@ Este proyecto es una API RESTful desarrollada con Fastify, Sequelize, TypeScript
 1-Crear un fork del repositorio original:
 
 ```bash
-  git clone https://github.com/TecSJ/ppa
+  https://github.com/TecSJ/ind
 ```
 2-Clonar el fork creado:
 
 ```bash
-  git clone https://github.com/{your-user}/ppa
+  git clone https://github.com/{your-user}/ind
 ```
 
 3- instalar dependencias
@@ -73,7 +73,7 @@ Este proyecto es una API RESTful desarrollada con Fastify, Sequelize, TypeScript
 ``` 
 
 ## Funcionamiento
-Tras arrancar el proyecto es requerido entrar a la ruta http://Localhost:3005/ppa aqui veremos el swagger con la documentaciond e las apis, para poder ejecutar las apis es requerido un token, el cual se obtiene iniciando sesion en https://xura.tsj.mx
+Tras arrancar el proyecto es requerido entrar a la ruta http://Localhost:3005/ind aqui veremos el swagger con la documentaciond e las apis, para poder ejecutar las apis es requerido un token, el cual se obtiene iniciando sesion en https://xura.tsj.mx
 una vez tengas el token, En la parte superior derecha de Swagger, encontrarás un botón 'Authorize'. sera necesario precionarlo y ingresar Bearer <Token>  (el token debe ir sin <>)
 
 > [!IMPORTANT]
