@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "outDir": "./ind",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "paths": {
+      "@models/*": ["./src/models/*"],
+      "@api-gateway/*": ["./src/api-gateway/*"],
+      "@validators/*": ["./src/validators/*"]
+    },
+  }
+}
